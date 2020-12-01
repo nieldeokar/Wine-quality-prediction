@@ -154,7 +154,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <repository>nieldeokar/wine-prediction-mvn1</repository>
+                    <repository>nieldeokar/wine-prediction-mvn</repository>
                     <tag>${project.version}</tag>
                     <skipDockerInfo>true</skipDockerInfo>
                 </configuration>
