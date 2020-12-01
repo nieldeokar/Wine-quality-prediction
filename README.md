@@ -16,7 +16,7 @@ Goal: The purpose of this individual assignment is to learn how to develop paral
 
 
 
-##Docker run instructions
+## Docker run instructions
 ````
 docker pull nieldeokar/wine-prediction-mvn:1.0
 
