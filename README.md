@@ -8,11 +8,19 @@ Goal: The purpose of this individual assignment is to learn how to develop paral
 ## Docker image link
 * [Docker image : nieldeokar/wine-prediction-mvn:1.0](https://hub.docker.com/layers/nieldeokar/wine-prediction-mvn/1.0/images/sha256:8f426593aa0cbd302b5705561091f5f3e67f564b60d07955508686a9d24fcb51)
 
-Docker run instructions
+
+## Before running Requirements :
+* Input file must be copied under data/ and with same name TestDataset.csv
+* Input file must have save format as of TrainingDataset.csv and ValidationDataset.csv. Column names in double quotes with exact name number of column with same names and separator ';'
+
+
+
+
+## Docker run instructions
 ````
 docker pull nieldeokar/wine-prediction-mvn:1.0
 
-Docker run -v [fullLocalPath of TestDataset.csv: data/TestDataset.cvs ] nieldeokar/wine-prediction-mvn:1.0
+Docker run -v [fullLocalPath of TestDataset.csv: data/TestDataset.csv ] nieldeokar/wine-prediction-mvn:1.0
 
 for e.g.
 
