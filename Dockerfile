@@ -21,9 +21,11 @@ COPY data/ data/
 RUN rm data/TrainingDataset.csv
 RUN rm data/ValidationDataset.csv
 
+
 VOLUME /tmp
 
 ADD target/*.jar app.jar
 ENV JAVA_OPTS=""
 ENTRYPOINT [ "sh", "-c", "java -Djava.security.egd=file:/dev/./urandom -jar /app.jar" ]
+CMD ["data/TestDataset.csv"]
 
