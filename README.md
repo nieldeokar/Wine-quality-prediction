@@ -6,7 +6,7 @@ Goal: The purpose of this individual assignment is to learn how to develop paral
 * [Readme word](https://github.com/nieldeokar/Wine-quality-prediction/blob/master/ReadMe_doc.docx)
 
 ## Docker image link
-* [Docker image : nieldeokar/wine-prediction-mvn:1.0](https://hub.docker.com/layers/nieldeokar/wine-prediction-mvn/1.0/images/sha256:8f426593aa0cbd302b5705561091f5f3e67f564b60d07955508686a9d24fcb51)
+* [Docker image : nieldeokar/wine-prediction-mvn:1.0](https://hub.docker.com/repository/docker/nieldeokar/wine-prediction-mvn)
 
 
 ## Before running Requirements :
